@@ -27,7 +27,7 @@ div.bodywrapper {
 }
 
 div.sphinxsidebar {
-    width: 220px;
+    width: 300px;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -67,12 +67,13 @@ p.caption {
 
 div.sphinxsidebar a {
     color: #444;
-    text-decoration: none;
+    text-decoration:none;
     border-bottom: 1px dotted #999;
 }
 
 div.sphinxsidebar a:hover {
     border-bottom: 1px solid #999;
+    text-decoration: none;
 }
 
 div.sphinxsidebarwrapper {
