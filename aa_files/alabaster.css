@@ -10,6 +10,20 @@ body {
     margin: 0;
     padding: 0;
 }
+header img{
+    width: 45px;
+    position: absolute;
+
+}
+
+header{
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+header h1{
+    text-align: center;
+}
 
 
 div.document {
@@ -81,7 +95,7 @@ div.sphinxsidebarwrapper {
 }
 
 div.sphinxsidebarwrapper p.logo {
-    padding: 0;
+    padding: 0px;
     margin: -10px 0 0 0px;
     text-align: center;
 }
@@ -564,6 +578,7 @@ a:hover tt, a:hover code {
     }
 
     div.sphinxsidebar {
+        
         display: block;
         float: none;
         width: 102.5%;
@@ -583,7 +598,7 @@ a:hover tt, a:hover code {
     }
 
     div.sphinxsidebar p.logo {
-        display: none;
+        display: block;
     }
 
     div.document {
