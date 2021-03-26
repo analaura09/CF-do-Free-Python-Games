@@ -6,12 +6,12 @@
 }
 #icone{
     cursor: pointer;
-    padding: 15px;
+    padding: 15px 0px 15px;
     position: absolute;
     z-index: 1;
 }
 .barra{
-    background-color: rgb(92, 89, 89);
+    background-color: black;
     height: 150%;
     width: 300px;
     position: absolute;
@@ -60,6 +60,7 @@ body {
 header img{
     width: 45px;
     position: absolute;
+    
 
 }
 
@@ -193,6 +194,7 @@ div.sphinxsidebar p {
 }
 
 div.sphinxsidebar ul {
+    margin-top: 70px;
     margin-left: 30px;
     padding: 0px;
     color: #000;
