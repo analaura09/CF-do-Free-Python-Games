@@ -211,7 +211,7 @@ div.sphinxsidebar ul li.toctree-l2 > a {
 div.sphinxsidebar input {
     border: 1px solid #CCC;
     font-family: Georgia, serif;
-    font-size: 1em;
+    font-size: 1em; 
 }
 
 div.sphinxsidebar hr {
