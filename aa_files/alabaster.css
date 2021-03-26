@@ -1,6 +1,53 @@
 @import url("basic.css");
 
 /* -- page layout ----------------------------------------------------------- */
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: rgb(92, 89, 89);
+    height: 150%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -300px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+nav a{
+    text-decoration: none;
+}
+.link{
+    background-color: #030303;
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 12px;
+    transition: all .2s linear;
+    color: #f4f4f9;
+    border-bottom: 2px solid #222;
+    opacity: 0;
+    margin-top: 200px;
+}
+.link:hover{
+    background-color: #050542;
+}
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: 0.2s;
+}
 
 body {
     font-family: Georgia, serif;
@@ -24,7 +71,6 @@ header{
 header h1{
     text-align: center;
 }
-
 
 div.document {
     width: 940px;
@@ -477,7 +523,7 @@ tt.xref, code.xref, a tt {
 
 a.reference {
     text-decoration: none;
-    border-bottom: 1px dotted #004B6B;
+    
 }
 
 /* Don't put an underline on images */
