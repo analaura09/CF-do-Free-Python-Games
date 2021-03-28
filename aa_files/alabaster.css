@@ -1,6 +1,52 @@
 @import url("basic.css");
 
 /* -- page layout ----------------------------------------------------------- */
+body {
+    margin: 0;
+    padding: ;
+    background: #D52C2C;
+}
+.search-box {
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    background: #f1c40f;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+
+.search-btn {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #D52C2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+    line-height: 40px;
+    width: 150px;
+}
+     
+
 #check{
     display: none;
 }
