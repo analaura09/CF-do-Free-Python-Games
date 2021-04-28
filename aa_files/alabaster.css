@@ -8,8 +8,8 @@ body {
 }
 .search-box {
     position: absolute;
-    top: -5%;
-    left: 5%;
+    top: 23%;
+    left: 7%;
     background: #f1c40f;
     height: 40px;
     border-radius: 40px;
@@ -24,7 +24,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #D52C2C;
+    background: #ff0000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@ body {
     z-index: 1;
 }
 .barra{
-    background-color: black;
+    background-color: rgb(164, 147, 189);
     height: 150%;
     width: 300px;
     position: absolute;
@@ -107,6 +107,7 @@ body {
     border-left: 4px  black solid;
     border-right: 4px black solid;
     
+
     
     
     
